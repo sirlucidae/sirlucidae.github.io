@@ -14,12 +14,12 @@ h1, p {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 32px;
     padding-top: 12rem;
 }
 
 .bigger-text {
-    font-size: 1.5rem;
+    font-size: 24px;
 /* padding-top
     padding-bottom */
     padding-left: 1rem;
@@ -27,7 +27,7 @@ h1 {
 }
 
 .smaller-text {
-    font-size: 1.0rem;
+    font-size: 16px;
 /* padding-top
     padding-bottom */
     padding-left: 1rem;
