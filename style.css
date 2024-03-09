@@ -15,7 +15,7 @@ h1, p {
 
 h1 {
     font-size: 2.5rem;
-    padding-top: 11.5rem;
+    padding-top: 12rem;
 }
 
 .bigger-text {
@@ -27,7 +27,7 @@ h1 {
 }
 
 .smaller-text {
-    font-size: 0.5rem;
+    font-size: 1rem;
 /* padding-top
     padding-bottom */
     padding-left: 1rem;
