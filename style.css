@@ -4,25 +4,38 @@
 } */
 
 body {
-   text-align: center;
-  background: black url("img/emoji.png");
+    text-align: center;
+    background: black url("img/zigzag.bmp");
 }
 
 h1, p {
     color: blueviolet;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 h1 {
-    font-size: 4rem;
-    padding-top: 10rem;
+    font-size: 2.5rem;
+    padding-top: 11rem;
 }
 
 .bigger-text {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
+/* padding-top
+    padding-bottom */
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.smaller-text {
+    font-size: 0.5rem;
+/* padding-top
+    padding-bottom */
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .container {
-  background: url("img/window.png");
+  background: url("img/Windows31.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;

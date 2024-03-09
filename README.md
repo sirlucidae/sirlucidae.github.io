@@ -1,1 +1,1 @@
-My personal website, written in HTML/CSS/XML.
+My personal website, written in HTML/CSS/XML/JS, etc.
