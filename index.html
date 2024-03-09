@@ -1,132 +1,31 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Welcome to my website!</title>
-  <style type="text/css">
-html, body{
-	-webkit-font-smoothing:antialiased;
-	font-family: "Comic Sans MS", sans-serif;
-	line-height:1.4;
-	margin:0 auto;
-	max-width:860px;
-	height: 100%;
-}
-.center{
-	text-align: center;
-}
-.intro{
-	font-size:4em;
-}
-.max { 
-    display: block;
-    width: 860px;
-    word-wrap: break-word;
-}
-.bg1{
-	background-image: url("https://i.imgur.com/s3XGJCG.gif");
-}
-.bg2{
-	background-image: url("https://i.imgur.com/s3XGJCG.gif");
-}
-a{
-	color: #000000;
-}
-#wm-ipp #wm-ipp-inside {
-  margin: 0 6px;
-  border:5px solid #000;
-  border-top:none;
-  background-color:rgba(255,255,255,0.9);
-  -moz-box-shadow:1px 1px 4px #333;
-  -webkit-box-shadow:1px 1px 4px #333;
-  box-shadow:1px 1px 4px #333;
-  border-radius:0 0 8px 8px;
-}
-.container {
-    width: 1000px;
-    height: 100%;
-    border: 2px solid black;
-    box-sizing: border-box;
-}
-h1, h2, h3, p, a {
-  color: yellow;
-}
-span.line{
-  color: red;
-}
-/*	  
-.cursor{
-    cursor: url(), auto;
-}
-*/	  
-/* @group Blink */
-.blink {
-	-webkit-animation: blink .75s linear infinite;
-	-moz-animation: blink .75s linear infinite;
-	-ms-animation: blink .75s linear infinite;
-	-o-animation: blink .75s linear infinite;
-	 animation: blink .75s linear infinite;
-}
-@-webkit-keyframes blink {
-	0% { opacity: 1; }
-	50% { opacity: 1; }
-	50.01% { opacity: 0; }
-	100% { opacity: 0; }
-}
-@-moz-keyframes blink {
-	0% { opacity: 1; }
-	50% { opacity: 1; }
-	50.01% { opacity: 0; }
-	100% { opacity: 0; }
-}
-@-ms-keyframes blink {
-	0% { opacity: 1; }
-	50% { opacity: 1; }
-	50.01% { opacity: 0; }
-	100% { opacity: 0; }
-}
-@-o-keyframes blink {
-	0% { opacity: 1; }
-	50% { opacity: 1; }
-	50.01% { opacity: 0; }
-	100% { opacity: 0; }
-}
-@keyframes blink {
-	0% { opacity: 1; }
-	50% { opacity: 1; }
-	50.01% { opacity: 0; }
-	100% { opacity: 0; }
-}
-/* @end */
+<html lang="en-US">
 
-/*for footer*/
-#main{
-	min-height: 90vh;
-}
-  </style>  
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>My 90s Website</title>
 </head>
-<body class="center bg2 max">
-<div id="main">
-<h1 class="tab blink">Welcome to my website!</h1>
-<!--	
-<div id="home">
-<h4><a href="#home">Home</a> <span class="line">|</span>
-<a href="#about">About Me</a> <span class="line">|</span>
-<a href="#working">Projects I am Working On</a> <span class="line">|</span>
-<a href="#made">Stuff I Made</a></h4>
-</div>
-<img class="intro" id="about" src="">
-<h2>This is the base file for the 90s themed website I want to make</h2>
-<h2 id="working">Projects I am working on</h2>
-<p></p>
-<h2 id="made">Stuff I made</h2>
--->	
-</div>
-<footer id="footer">
-<!--	
-<img src="">
-<p>This is a link to my <a href="">portfolio</a></p>
-<span><img src=""></span>
--->	
-</footer>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>My 90s Website</h1>
+      <img src="img/dancing-baby.gif" alt="Animated GIF of a dancing baby" />
+    </header>
+    <main>
+      <p class="bigger-text">
+        This is a <strong>90s inspired</strong> website. Today, 90s web design is
+        more likely to raise a smile than admiration.
+      </p>
+      <hr />
+      <p>
+        See what Apple, Microsoft, Yahoo or Pepsi websites
+        <a href="https://www.webdesignmuseum.org/exhibitions/web-design-in-the-90s">looked like in the mid-1990s</a>.
+      </p>
+    </main>
+  </div>
 </body>
+
 </html>
