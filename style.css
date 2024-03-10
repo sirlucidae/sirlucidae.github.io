@@ -135,11 +135,9 @@ hr {
 .list-items {
   list-style: square;
   text-align: left;
-    font-size: 16px;
-    color: blueviolet;
-    font-family: "Lucida Console", "Courier New", monospace;
-/* padding-top
-    padding-bottom */
-    padding-left: 4rem;
-    padding-right: 4rem;
+  font-size: 16px;
+  color: blueviolet;
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
