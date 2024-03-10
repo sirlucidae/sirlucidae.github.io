@@ -18,6 +18,10 @@ h1 {
     padding-top: 12rem;
 }
 
+ hr {
+  border: none;
+}
+
 .bigger-text {
     font-size: 24px;
 /* padding-top
@@ -32,6 +36,9 @@ h1 {
     padding-bottom */
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+.footer {
 }
 
 .container {
