@@ -15,7 +15,7 @@ h1, p {
 
 h1 {
     font-size: 32px;
-    padding-top: 12rem;
+    padding-top: 12.5rem;
 }
 
  hr {
@@ -39,6 +39,66 @@ h1 {
 }
 
 .footer {
+}
+
+#homepage
+{
+  display: inline-block;
+  width: 96px;
+  height: 23px;
+  background: url("img/button-home.png") no-repeat 0 0;
+  margin: auto;
+}
+
+#homepage:hover
+{ 
+  background-position: 0 -23px;
+}
+
+#homepage span
+{
+  position: absolute;
+  top: -999em;
+}
+
+#gallery
+{
+  display: inline-block;
+  width: 96px;
+  height: 23px;
+  background: url("img/button-gallery.png") no-repeat 0 0;
+  margin: auto;
+}
+
+#gallery:hover
+{ 
+  background-position: 0 -23px;
+}
+
+#gallery span
+{
+  position: absolute;
+  top: -999em;
+}
+
+#favorites
+{
+  display: inline-block;
+  width: 96px;
+  height: 23px;
+  background: url("img/button-favorites.png") no-repeat 0 0;
+  margin: auto;
+}
+
+#favorites:hover
+{ 
+  background-position: 0 -23px;
+}
+
+#favorites span
+{
+  position: absolute;
+  top: -999em;
 }
 
 .container {
