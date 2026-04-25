@@ -29,7 +29,7 @@ img {
 }
 
 .container {
-  background: url("img/Windows31.png");
+  background: url("img/Windows31_1024x768.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -62,7 +62,7 @@ img {
   display: inline-block;
   width: 96px;
   height: 23px;
-  background: url("img/button-home.png") no-repeat 0 0;
+  background: url("img/button_home.png") no-repeat 0 0;
   margin: auto;
 }
 
@@ -82,7 +82,7 @@ img {
   display: inline-block;
   width: 96px;
   height: 23px;
-  background: url("img/button-gallery.png") no-repeat 0 0;
+  background: url("img/button_gallery.png") no-repeat 0 0;
   margin: auto;
 }
 
@@ -102,7 +102,7 @@ img {
   display: inline-block;
   width: 96px;
   height: 23px;
-  background: url("img/button-favorites.png") no-repeat 0 0;
+  background: url("img/button_links.png") no-repeat 0 0;
   margin: auto;
 }
 
@@ -149,4 +149,8 @@ img {
   font-family: "Lucida Console", "Courier New", monospace;
   padding-left: 4rem;
   padding-right: 4rem;
+}
+
+.picture {
+  display: inline-block;
 }
