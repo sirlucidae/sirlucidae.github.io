@@ -97,7 +97,7 @@ img {
   top: -999em;
 }
 
-#button-favorites
+#button-links
 {
   display: inline-block;
   width: 96px;
@@ -106,12 +106,12 @@ img {
   margin: auto;
 }
 
-#button-favorites:hover
+#button-links:hover
 { 
   background-position: 0 -23px;
 }
 
-#button-favorites span
+#button-links span
 {
   position: absolute;
   top: -999em;
@@ -121,17 +121,19 @@ img {
   margin: 5px;
   border: 1px solid #ccc;
   display: inline-block;
-  width: 180px;
+  width: 160px;
 }
 
 .gallery:hover {
   border: 1px solid #777;
 }
 
+/*
 .gallery img {
   width: 100%;
   height: auto;
 }
+*/
 
 .desc {
   padding: 15px;
@@ -151,6 +153,6 @@ img {
   padding-right: 4rem;
 }
 
-.picture {
+.graphic {
   display: inline-block;
 }
